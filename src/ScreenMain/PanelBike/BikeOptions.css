@@ -1,0 +1,22 @@
+.bikeOptions{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: white; */
+  flex-grow: 10;
+  
+}
+.lastLaps {
+    /* display: flex; */
+    /* justify-content: space-around; */
+  }
+  
+  /* .lastLaps .date,
+  .lastLaps .guesses {
+    width: 20%;
+    text-align: center;
+  }
+  
+  .lastLaps tr:nth-child(even) {
+    background: #eee;
+  } */

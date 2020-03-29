@@ -1,0 +1,12 @@
+@import '../mui-theme.css';
+
+.topMenu{
+    display: flex;
+    background-color:var(--primaryColor);
+
+}
+.topButton{
+    font-size: 2em;
+    margin-left: 1%;
+    margin-bottom: 5px;
+}

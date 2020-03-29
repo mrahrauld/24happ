@@ -1,0 +1,81 @@
+@import '../../mui-theme.css';
+
+.panelBike{
+    flex-basis: 25%;
+    /* background-color: rgb(55, 72, 170); */
+    /* background: var(--backgroundColor); */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    border-radius: 2em 2em 1em 1em;
+}
+.bikeHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.bikeStats{
+    font-size: 1.2em;
+    text-align: left;
+}
+.title{
+    display: flex;
+    background-color: var(--primaryColor);
+    /* border-radius: 30px 30px 0% 0%; */
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+.bikeNumber{
+    font-size: 4em;
+    /* background-color: var(--secondaryColor); */
+    color: white;
+    text-align: center;
+    /* flex-grow: 1; */
+    padding: 4%;
+    line-height: 100%;
+}
+
+.bikeInfos{
+    display: flex;
+    justify-content: space-evenly;
+
+    align-items: center;
+    flex-wrap: nowrap;
+    /* background-color: teal; */
+}
+.badge{
+    /* height: 100px;
+    width: 100px; */
+    /* object-fit: contain; */
+}
+.scoutBadge{
+    height: 100%;
+    width: 30%;
+    object-fit: contain;
+}
+.bikeLaps{
+    /* background-color: rgb(214, 133, 133); */
+    font-size: 0.9em;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: auto;
+    align-items: stretch;
+}
+.bikeButtons{
+    /* background-color: rgb(116, 79, 79); */
+}
+.add{
+    /* background-color: rgb(255, 202, 202); */
+}
+.chronos{
+    display: flex;
+    justify-content: space-evenly;
+}

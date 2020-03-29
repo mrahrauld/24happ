@@ -1,0 +1,32 @@
+
+.segments .mins,
+.segments .secs {
+   /* color: #292929; */
+   /* font-size: 2em; */
+}
+
+.segments .decis {
+   font-size: 0.5em;
+   align-self: flex-end;
+}
+
+.segments {
+    /* color: #292929; */
+    /* color: black; */
+ 
+ }
+ 
+ .segments .state {
+    display: block;
+    font-size: 1rem;
+    padding: 10px 0;
+    text-align: center;
+ }
+ 
+ .segments {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    object-fit: contain;
+ }

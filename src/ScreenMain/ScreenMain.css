@@ -1,0 +1,8 @@
+@import '../mui-theme.css';
+.screenMain{
+    /* background: rgb(41, 81, 155); */
+    display: flex;
+    flex-grow: 1;
+    background: var(--backgroundColor);
+    color: var(--fontColor);
+  }

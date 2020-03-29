@@ -1,0 +1,92 @@
+@import '../../mui-theme.css';
+
+.panelMiddle{
+    /* background: rgb(20, 75, 128); */
+    padding-bottom: 1em;
+    padding-top: 1em;
+    flex-basis: 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 0;
+    max-width: 60%;
+    max-height: 100%;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.mapdiv{
+    position: relative;
+    border-radius: 8em;
+    overflow: hidden;
+    width: 95%;
+}
+.mapimg{
+    position: relative;
+    width: 100%;
+    opacity: 0.6;
+    /* filter: grayscale(100%) contrast(120%) brightness(90%); */
+}
+.bike{
+    position: absolute;
+    /* left:10%; */
+    margin-left: -0.5em; 
+    margin-top: -0.5em;
+    /* margin-right: auto; */
+}
+.middleHeader{
+    margin : 0;
+    /* background-color: mediumorchid; */
+    /* background-color: cadetblue; */
+}
+.chronos{
+    display: flex;
+    justify-content: space-between;
+    /* height: 100%; */
+}
+.boxbike{
+    position: relative;
+}
+.opponents{
+    display: flex;
+    justify-content: space-around;
+}
+
+.opponent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5em;
+    overflow: hidden;
+    /* padding-left: 0.5em;
+    padding-right: 0.5em; */
+}
+
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+}
+.flexRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.title{
+    background-color: var(--primaryColor);
+}
+.slider{
+    /* width: %; */
+}
+.deltaDisplay{
+    font-size: 1.5em;
+    /* padding: 5% 10% 5% 10%; */
+}

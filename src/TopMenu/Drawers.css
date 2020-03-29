@@ -1,0 +1,42 @@
+@import '../mui-theme.css';
+.drawer{
+    width: 300px;
+    background:var(--backgroundColor);
+    height : 100%;
+    display: flex;
+    flex-direction: column;
+    padding : 1%;
+    
+}
+.textField{
+    color:white;
+}
+.addScout{
+    display: flex;
+    margin:5px
+}
+.deleteScout{
+    display: flex;
+    margin:5px
+}
+
+.startSelect{
+    display: flex;
+}
+
+.bikeNumberSet{
+    display: flex;
+}
+
+
+.cover{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.settingsBike{
+    display: flex;
+    justify-content: space-evenly;
+}

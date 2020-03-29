@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+.chronometer{
+   /* background: rgb(160, 122, 20); */
+   /* object-fit: contain; */
+   /* justify-content: space-between; */
+   /* background-color: red; */
+   font-size: 2.5em;
+   /* box-shadow: 10px 5px 5px; */
+   padding: 1%
+}
+.sliders{
+   display: flex;
+   flex-grow: 0;
+   /* background-color: yellow; */
+   /* padding: 0; */
+}
+.slider{
+   margin-right: 5px;
+   margin-left: 5px;
+   margin-top: 0;
+   margin-bottom: 0;
+   width: 50%;
+   /* background-color: white; */
+}
+
+
+.display{
+   flex-grow: 1;
+}
+
+.actions {
+   /* background: rgb(155, 148, 50); */
+   padding: 0 0;
+   display: flex;
+   /* justify-content: center; */
+   justify-content: space-around;
+}
+
+.btn {
+   background: rgb(50, 89, 155);    
+   border: solid 0px;
+   border-radius: 7px;
+   color: white;
+   font-size: 0.8em;  
+   padding: 2% 10px;
+   margin: 1%;
+}
+
+.btn:hover{
+   opacity: 0.9;
+}
+
+.btn.disabled {
+   opacity: 0.5;
+}
+.btn.start {
+    background: rgb(53, 146, 81);
+ }
+ .btn.stop {
+    background: rgb(185, 51, 51);
+ }
